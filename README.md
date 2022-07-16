@@ -3,6 +3,10 @@
 http://localhost:8083/students/hello
 
 ```
+./mvnw spring-boot:run
+
+PS D:\github\springboot-docker> .\mvnw package
+
 C:\Users\Administrator\Downloads\dockerexample>mvnw.cmd spring-boot:run
 
 docker build --tag springboot-docker .

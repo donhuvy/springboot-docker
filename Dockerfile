@@ -10,4 +10,4 @@ COPY mvnw pom.xml ./
 RUN ./mvnw dependency:go-offline
 COPY src ./src
 #run inside container
-CMD [ "mvnw", "spring-boot:run" ]
+CMD [ "./mvnw", "spring-boot:run" ]
